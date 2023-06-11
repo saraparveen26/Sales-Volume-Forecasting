@@ -22,7 +22,7 @@ The target audiences for this model are:<br />
 
 __Data Sources__
 
-* The data used for this project comes from CSV files obtained from the anonymous company. 
+* The data used for this project comes in the form of CSV files obtained from the anonymous company. 
 * The original data has been anonymized for the purposes of this project. 
 * The CSVs have 5-years worth of data (2018 to 2022) for Purchase, Sales and Product Details.
       
