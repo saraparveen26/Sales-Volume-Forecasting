@@ -1,4 +1,4 @@
-## __Group 6 Project 4: Inventory Sales Forecasting__ ##<br />
+## __Group 6 Project 4: Inventory Sales Forecasting__ 
 
 __Project Overview and Purpose of Data Model__
 
