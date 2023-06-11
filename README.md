@@ -63,7 +63,7 @@ __Visulizations and Dashboard Views__
 __Challenges__
 
 1) Back-End
-       - Invoice Date Formatiing
+       - Invoice Date Formatting
 
 
 3) Front-End
