@@ -63,6 +63,8 @@ __Data Model Results__
 __Visulizations and Dashboard Views__
 
   - Databricks
+  - Historical Dashboard
+  - Forecasting Dashboard
 
 __Challenges__
 
