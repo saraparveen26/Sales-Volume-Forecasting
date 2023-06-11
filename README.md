@@ -4,17 +4,19 @@ __Project Overview and Purpose of Data Model__
 
 * For this project, we aimed to improve the inventory planning of an anonymous company.
 * This company acts as a product distributor by purchasing office products from manufacturers, holding them and then reselling them to its business customers.
-* By analyzing their Purchase and Sales data for office products, we created a data model that makes predictions about how much of each product will be sold in the future. 
+* By analyzing their purchase, sales and product details data for office products, we created a data model that makes predictions about how much of each product will be sold in the future. 
 * Knowing how much will be sold of each product in the future can help determine how much of each product should be kept in stock at any given time.
 * Having a tool that determines the ideal amount of inventory to have at any given time is crucial to:
       1) meet customer demand and ensure customer satisfaction
-      2) maintaining high profitablity
+      2) maintain high profitablity
       2) avoid having too much inventory which can lead to unnecessary storage and handling costs
       3) avoid stockouts which can result in loss in sales
 
 __Target Audience of Data Model__
 
-The target audiences for this model are the anonymous company whose data we analyst, any other sales planing, supply chain, and procurement professionals.
+The target audiences for this model are:
+      1) the anonymous company whose data was analyzed
+      2) all product sales planning, supply chain, and procurement professionals.
 
 __Data Sources__
 
