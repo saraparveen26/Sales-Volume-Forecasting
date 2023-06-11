@@ -63,9 +63,8 @@ __Visulizations and Dashboard Views__
 __Challenges__
 
 1) Back-End<br />
-       - Invoice Date Formatting<br />
-
-
+      - Invoice Date Formatting
+      
 2) Front-End
       - Truncated data in Databricks
       - Mutiple filter limitations in Databricks
