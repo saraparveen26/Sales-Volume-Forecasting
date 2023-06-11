@@ -38,7 +38,8 @@ __Data Hosting__
 
 __Data Model Description__
 
-The data model uses a time series analysis. This analysis uses the following methods:
+The data model is a time series model. 
+The model uses the following methods:
 
 * Moving Averages
 * Exponential Smoothing
