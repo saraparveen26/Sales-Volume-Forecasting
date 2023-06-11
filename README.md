@@ -10,7 +10,7 @@ __Purpose of Data Model__
 
 This model assisted in making predictions for the order quantities for each product category to achieve the highest profitability.
 
-__Target Audience of the Data Model__
+__Target Audience of Data Model__
 
 The target audiences for this model are supply chain, logistics fulfillment and procurement professionals.
 
