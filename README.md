@@ -33,7 +33,9 @@ __Data Hosting__
 
 __Database Creation__
 
-* ERD Schema
+* To help setup the data cleaning and  database parameters an ERD schema was created as shown in the screenshot below:
+ ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/a322323f-8883-4384-9df9-e2639db790ca)
+
 * Amazon AWS feeds DBS databricks  
 
 __Data Cleaning__      
@@ -63,8 +65,14 @@ __Data Model Results__
    
 __Visulizations and Dashboard Views__
 
-  - Databricks
-  - Historical Dashboard
+  * Databricks was utilized to created both the visualizations and dashboards.
+  * Two dashboards were created. The first dashboard showed visulaizations related to historical inventory sales volume data and the second dashboard showed visualizations that leveraged the data model created to predict future inventory sales volumnes.
+  * Here are screenshots of the dashboard with the historical data:
+
+
+
+
+
   - Forecasting Dashboard
 
 __Challenges and Limitations__
