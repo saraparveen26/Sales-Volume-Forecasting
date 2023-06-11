@@ -17,8 +17,8 @@ __Target Audience of Data Model__
 
 The target audiences for this model are:<br />
 
-      1) the anonymous company whose data was analyzed<br />
-      2) all product sales planning, supply chain, and procurement professionals.<br />
+  - the anonymous company whose data was analyzed<br />
+  - all product sales planning, supply chain, and procurement professionals<br />
 
 __Data Sources__
 
