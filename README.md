@@ -55,7 +55,7 @@ The model uses the following methods:
 __Data Model Results__
 
    * Overall model performance is printed or displayed at the end of the script
-   * The model demonstrates meaningful predictive power at least 75% classification accuracy or 0.80 R-squared. (5 points)
+   * The model demonstrates meaningful predictive power at least 75% classification accuracy or 0.80 R-squared.
    
 __Visulizations and Dashboard Views__
 
