@@ -72,7 +72,7 @@ __Challenges and Limitations__
 1) Back-End<br />
       - Invoice Date Formatting
       - Product No. vs Catergory
-      - Assumming unlimited inventory space
+      - Assuming unlimited inventory space
       
 2) Front-End
       - Truncated data in Databricks
