@@ -29,11 +29,11 @@ __Data Sources__
 __Data Hosting__ 
 
 * Amazon AWS for hosting the CSV files 
-* The model utilizes data retrieved from Pysark SQL
-* Amazon AWS feeds DBS databricks for purposes of visulizations  
+* The model utilizes data retrieved from Pysark SQL 
 
 __Database Creation__
 
+* Amazon AWS feeds DBS databricks  
 
 __Data Cleaning__      
 
