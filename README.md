@@ -1,30 +1,26 @@
 ## __Group 6 Project 4: Inventory Sales Forecasting__ ##<br />
 
-__Project Overview__
+__Project Overview and Purpose of Data Model__
 
-For this project,  to cr an efficient supply chain process for an anonymous company by analyzing the Purchase and Sales data for office products. This company acts as a distributor by purchasing the office products from manufacturers, holding them and then reselling them to its business customers. 
-
-The purpose of the project deliverable is to add more automation to the product ordering process based on the demand, inventory at hand, and shipment times. Another objective is to help identify the products that are highest contributor to overall sales and prioritize them to increase the company’s overall profitability. Time series model.
-
-__Purpose of Data Model__
-
-This model makes predictions about the order quantities for each product available to customers to achieve the highest profitability.
-
-Having a tool that determines the ideal amount of inventory to have at any given time is crucial to:
+* For this project, we aimed to improve the inventory planning of an anonymous company.
+* This company acts as a product distributor by purchasing office products from manufacturers, holding them and then reselling them to its business customers.
+* By analyzing their Purchase and Sales data for office products, we created a data model that makes predictions about how much of each product will be sold in the future. 
+* Knowing how much will be sold of each product in the future can help determine how much of each product should be kept in stock at any given time.
+* Having a tool that determines the ideal amount of inventory to have at any given time is crucial to:
       1) meet customer demand and ensure customer satisfaction
+      2) maintaining high profitablity
       2) avoid having too much inventory which can lead to unnecessary storage and handling costs
-      3) avoid stockouts which can results in loss in sales
-
+      3) avoid stockouts which can result in loss in sales
 
 __Target Audience of Data Model__
 
-The target audiences for this model are sales, supply chain, logistics fulfillment and procurement professionals.
+The target audiences for this model are the anonymous company whose data we analyst, any other sales planing, supply chain, and procurement professionals.
 
 __Data Sources__
 
-* The data used for this project comes from CSV files obtained from the company. 
+* The data used for this project comes from CSV files obtained from the anonymous company. 
 * The original data has been anonymized for the purposes of this project. 
-* The CSVs have 5-years worth of data (2018 to 2022) for Purchase, Sales and Products.
+* The CSVs have 5-years worth of data (2018 to 2022) for Purchase, Sales and Product Details.
       
 __Data Cleaning__      
 
