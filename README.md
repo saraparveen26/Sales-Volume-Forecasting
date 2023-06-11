@@ -1,4 +1,4 @@
-#Group 6 Project 4 Overview
+#Group 6 Project 4 Overview: Inventory Sales Forecasting#
 
 This project aims to cr an efficient supply chain process for an anonymous company by analyzing the Purchase and Sales data for office products. This company acts as a distributor by purchasing the office products from manufacturers, holding them and then reselling them to its business customers. 
 
@@ -6,7 +6,7 @@ The purpose of the project deliverable is to add more automation to the product 
 
 __Purpose of Data Model__
 
-This project outcome will assist in making predictions for the order quantities for each product category to achieve the highest profitability.
+This model assisted in making predictions for the order quantities for each product category to achieve the highest profitability.
 
 __Target Audience of the Data Model__
 
@@ -14,30 +14,30 @@ The target audiences for this model are supply chain, logistics fulfillment and 
 
 __Data Sources__
 
-     * The data used for this project comes from CSV files obtained from the company. 
-     * The original data has been anonymized for the purposes of this project. 
-     * The CSVs have 5-years worth of data (2018 to 2022) for Purchase, Sales and Products.
+* The data used for this project comes from CSV files obtained from the company. 
+* The original data has been anonymized for the purposes of this project. 
+* The CSVs have 5-years worth of data (2018 to 2022) for Purchase, Sales and Products.
       
 __Data Cleaning__      
 
-     * PySpark for ETL
+* PySpark for ETL
      
 __Data Hosting__ 
 
-     * Amazon AWS for hosting the CSV files 
-     * The model utilizes data retrieved from Pysark SQL
-     * Amazon AWS feeds DBS databricks for purposes of visulizations  
+* Amazon AWS for hosting the CSV files 
+* The model utilizes data retrieved from Pysark SQL
+* Amazon AWS feeds DBS databricks for purposes of visulizations  
 
 __Data Model Description__
 
 The data model uses a time series analysis. This analysis uses the following methods:
 
-      * Moving Averages
-      * Exponential Smoothing
-      * AutoCorrelation Function (ACF)
-      * Partial AutoCorrelation Function (PACF)
-      * AutoRegressive model
-      * SARIMAX (Machine Learning model)
+* Moving Averages
+* Exponential Smoothing
+* AutoCorrelation Function (ACF)
+* Partial AutoCorrelation Function (PACF)
+* AutoRegressive model
+* SARIMAX (Machine Learning model)
 
   Description of Python script that initializes, trains, and evaluates a model:
   
