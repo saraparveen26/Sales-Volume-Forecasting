@@ -2,7 +2,7 @@
 
 __Project Overview and Purpose of Data Model__
 
-* For this project, we aimed to improve the inventory planning process of an anonymous company.
+* For this project, we focused on improving the inventory planning process of an anonymous company.
 * This anonymous company acts as a product distributor by purchasing office products from manufacturers, holding them and then reselling them to its business customers.
 * By analyzing their office products' purchase, sales and product details data, we created a data model that makes predictions about the sales quantity for each product in the future. 
 * Knowing how much will be sold of each product in the future can help determine how much of each product should be kept in stock at any given time.
