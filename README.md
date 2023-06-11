@@ -51,7 +51,7 @@ The data model uses a time series analysis. This analysis uses the following met
   
   Desciption of model optimization and evaluation process showing iterative changes made to the model and the resulting changes in model performance is documented in either a CSV/Excel table or in the Python script itself
 
-__Model Results__
+__Data Model Results__
 
    * Overall model performance is printed or displayed at the end of the script
    * The model demonstrates meaningful predictive power at least 75% classification accuracy or 0.80 R-squared. (5 points)
