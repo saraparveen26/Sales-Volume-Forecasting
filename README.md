@@ -1,4 +1,4 @@
-#Group 6 Project 4 Overview: Inventory Sales Forecasting#
+##__Group 6 Project 4 Overview: Inventory Sales Forecasting__##
 
 This project aims to cr an efficient supply chain process for an anonymous company by analyzing the Purchase and Sales data for office products. This company acts as a distributor by purchasing the office products from manufacturers, holding them and then reselling them to its business customers. 
 
