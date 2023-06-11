@@ -14,9 +14,9 @@ __Project Overview and Purpose of Data Model__
 
 __Target Audience of Data Model__
 
-The target audiences for this model are:
-      1) the anonymous company whose data was analyzed
-      2) all product sales planning, supply chain, and procurement professionals.
+The target audiences for this model are:<br />
+      1) the anonymous company whose data was analyzed<br />
+      2) all product sales planning, supply chain, and procurement professionals.<br />
 
 __Data Sources__
 
