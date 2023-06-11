@@ -33,6 +33,7 @@ __Data Hosting__
 
 __Database Creation__
 
+* ERD Schema
 * Amazon AWS feeds DBS databricks  
 
 __Data Cleaning__      
