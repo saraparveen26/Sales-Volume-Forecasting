@@ -1,18 +1,24 @@
-## __Group 6 Project 4: Inventory Sales Forecasting__ ##
+## __Group 6 Project 4: Inventory Sales Forecasting__ ##<br />
 
 __Project Overview__
 
-This project aims to cr an efficient supply chain process for an anonymous company by analyzing the Purchase and Sales data for office products. This company acts as a distributor by purchasing the office products from manufacturers, holding them and then reselling them to its business customers. 
+For this project,  to cr an efficient supply chain process for an anonymous company by analyzing the Purchase and Sales data for office products. This company acts as a distributor by purchasing the office products from manufacturers, holding them and then reselling them to its business customers. 
 
 The purpose of the project deliverable is to add more automation to the product ordering process based on the demand, inventory at hand, and shipment times. Another objective is to help identify the products that are highest contributor to overall sales and prioritize them to increase the company’s overall profitability. Time series model.
 
 __Purpose of Data Model__
 
-This model assisted in making predictions for the order quantities for each product category to achieve the highest profitability.
+This model makes predictions about the order quantities for each product available to customers to achieve the highest profitability.
+
+Having a tool that determines the ideal amount of inventory to have at any given time is crucial to:
+      1) meet customer demand and ensure customer satisfaction
+      2) avoid having too much inventory which can lead to unnecessary storage and handling costs
+      3) avoid stockouts which can results in loss in sales
+
 
 __Target Audience of Data Model__
 
-The target audiences for this model are supply chain, logistics fulfillment and procurement professionals.
+The target audiences for this model are sales, supply chain, logistics fulfillment and procurement professionals.
 
 __Data Sources__
 
