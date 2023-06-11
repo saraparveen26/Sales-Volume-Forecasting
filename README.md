@@ -8,10 +8,10 @@ __Project Overview and Purpose of Data Model__
 * Knowing how much will be sold of each product in the future can help determine how much of each product should be kept in stock at any given time.
 * Having a tool that determines the ideal amount of inventory to have at any given time is crucial to:<br />
 
- - meet customer demand and ensure customer satisfaction<br />
- - maintain high profitablity<br />
- - avoid having too much inventory which can lead to unnecessary storage and handling costs<br />
- - avoid stockouts which can result in loss in sales<br />
+  - meet customer demand and ensure customer satisfaction<br />
+  - maintain high profitablity<br />
+  - avoid having too much inventory which can lead to unnecessary storage and handling costs<br />
+  - avoid stockouts which can result in loss in sales<br />
 
 __Target Audience of Data Model__
 
