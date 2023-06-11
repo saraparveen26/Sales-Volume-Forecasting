@@ -26,15 +26,18 @@ __Data Sources__
 * The original data has been anonymized for the purposes of this project. 
 * The CSVs have 5-years worth of data (2018 to 2022) for Purchase, Sales and Product Details.
       
-__Data Cleaning__      
-
-* PySpark for ETL
-     
 __Data Hosting__ 
 
 * Amazon AWS for hosting the CSV files 
 * The model utilizes data retrieved from Pysark SQL
 * Amazon AWS feeds DBS databricks for purposes of visulizations  
+
+__Database Creation__
+
+
+__Data Cleaning__      
+
+* PySpark for ETL
 
 __Data Model Description__
 
