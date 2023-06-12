@@ -48,7 +48,7 @@ __Database Creation__
 __Data Cleaning__      
 
 * The ETL performed using PySpark by completing the following steps:
-    1) Loading and merging dataframes
+    1) Loading and merging DataFrames
     2) Selecting and filtering the columns to be used
     3) Converting the columns to the appropriate data type 
     4) Groupings the data to get yearly and monthly aggregates
