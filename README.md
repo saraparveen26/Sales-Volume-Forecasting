@@ -57,23 +57,60 @@ __Data Cleaning__
 
 __Data Model Description__
 
-The data model is a time series model. 
-The model uses the following methods:
+We have used a time series model to make sales volumne predictions. The machine learning model is called SARIMAX (Seasonal Auto-Regressive Integrated Moving Average with eXogenous factors) which is an extension of the ARIMA class of models.
 
-* Moving Averages
-* Exponential Smoothing
-* AutoCorrelation Function (ACF)
-* Partial AutoCorrelation Function (PACF)
-* AutoRegressive model
-* SARIMAX (Machine Learning model)
+For predicting future sales volumes of each product category, we applied the SARIMAX model which takes into account the past experience (autoregressive model) and seasonality patterns. The model includes the following parameters:
 
-  Description of Python script that initializes, trains, and evaluates a model:
-  
-  Desciption of model optimization and evaluation process showing iterative changes made to the model and the resulting changes in model performance is documented in either a CSV/Excel table or in the Python script itself
+p - order of the autoregressive part
+d - degree of first differencing involved
+q - order of the moving average part
+P, D, Q - all previous characteristics with seasonal factors
+s - seasonal length in the data
+
+The following steps were completed to make predictions about overall sales volume using the SARMAX model. 
+
+**NOTE: The following charts are based on data from all 10 product categories. Similar steps were performed for each individual product category and can be viewed by selecting the filter in the Forecasting Dashboard:  @@@@@@@&&&&&&&&&&
+
+1.	Identified the stationarity and difference of the time series:
+Based on the results of the Dickey-Fuller test, the p-value = 0.11034. As the p-value is greater than 0.05, we can suggest that our time series is non-stationary.  
+Analyzing the ADF (Augmented Dickey-Fuller) chart, we can suggest the parameter p = 0 since coefficients of autocorrelation slowly decrease over time lags. In other words, autocorrelation is not significant.
+
+![image](Images/Dashboard/Analysis/sales_analysis.png)
+
+
+2.	Suggested the initial parameters:
+Since our series is not stationary, for further analysis, we need to make the time series stationary using the differencing method:  lag=1: y_dif(t+1)=y(t+1)- y(t) .
+
+After applying the differencing method, the p-value of the Dickey-Fuller test equals 0.00000, so we can imply that the data is now stationary. We can suggest the other parameters: q=1 (as the first lag has a spike).
+
+ ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/7fb664a8-9c50-406a-b474-28edcd1619cb)
+
+
+We can see little spikes at lag 12 and 24 on ACF (AutoCorrelation Function), so P can be equal to 1.
+By decomposition of the time series, we can see the seasonal trend. We are using s =12 because we are using monthly sales volume data for predictions.
+
+
+ 
+
+3.	Generated the final parameters for the model: 
+In order to find the best parameters for our model, we generated different series of parameters (p, d, q, P, D, Q). The parameters used had the lowest AIC (Akaike’s Information Criterion) scores.
+
+4.	Ran the SARIMAX model:
+
+The SARIMAX model generated monthly sales volume predictions for the next 12-month period.
+ 
+
+We can imply that the model fits well based on the analysis of residuals.
+   
+
+
+
+ 
 
 __Data Model Results__
 
-   * Overall model performance is printed or displayed at the end of the script
+  * train and testing
+  * Overall model performance is printed or displayed at the end of the script
    * The model demonstrates meaningful predictive power at least 75% classification accuracy or 0.80 R-squared.
    
 __Visulizations and Dashboard Views__
