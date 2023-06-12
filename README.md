@@ -1,6 +1,6 @@
-## __Group 6 Project 4: Sales Volume Forecasting__ 
+# Group 6 Project 4: Sales Volume Forecasting
 
-__Project 4 Group Members:__
+## Project 4 Group Members:
 
 * Zachary Corbett
 * Victor Donstov
@@ -8,7 +8,7 @@ __Project 4 Group Members:__
 * Set Z
 
 
-__Project Overview and Purpose of Data Model__
+## Project Overview and Purpose of Data Model
 
 * For this project, we focused on improving the inventory planning process of an anonymous company.
 * This anonymous company acts as a product distributor by purchasing office products from manufacturers, holding them and then reselling them to its business customers.
@@ -22,7 +22,7 @@ __Project Overview and Purpose of Data Model__
   - maintain high profitability<br />
 
 
-__Target Audience of Data Model__
+## Target Audience of Data Model
 
 The target audiences for this model are:<br />
 
@@ -30,20 +30,20 @@ The target audiences for this model are:<br />
   - all product sales planning, supply chain, and procurement professionals<br />
 
 
-__Data Sources__
+## Data Sources
 
 * The data used for this project comes in the form of CSV files obtained from the anonymous company. 
 * The original data has been anonymized for the purposes of this project. 
 * The CSVs have 5-years worth of data (2018 to 2022) for Purchase, Sales and Product Details.
 
 
-__Data Hosting__ 
+## Data Hosting
 
 * Amazon AWS for hosting the CSV files 
 * The model utilizes data retrieved from Pysark SQL 
 
 
-__Database Creation__
+## Database Creation
 
 * To help setup the database, an ERD schema was created as shown below:
 
@@ -52,7 +52,7 @@ __Database Creation__
 * Amazon AWS feeds DBS databricks  
 
 
-__Data Cleaning__      
+## Data Cleaning     
 
 * The ETL performed using PySpark by completing the following steps:
     1) Loading and merging DataFrames
@@ -63,7 +63,7 @@ __Data Cleaning__
 %%%%%%%%%%%@@@@* The ETL process is documented in the Databricks notebook which can be viewed here:  
 
 
-__Data Model Description__
+## Data Model Description
 
 We have used a time series model to make sales volumne predictions. The machine learning model is called SARIMAX (Seasonal Auto-Regressive Integrated Moving Average with eXogenous factors) which is an extension of the ARIMA class of models.
 
@@ -115,14 +115,14 @@ We can imply that the model fits well based on the analysis of residuals.
 ![image](Images/SARIMAX/Analysis/Sales_err.png)
 
 
-__Data Model Results__
+## Data Model Results
 
   * train and testing
   * Overall model performance is printed or displayed at the end of the script
    * The model demonstrates meaningful predictive power at least 75% classification accuracy or 0.80 R-squared.
    
 
-__Visulizations and Dashboard Views__
+## Visulizations and Dashboard Views
 
   * Databricks was utilized to created both the visualizations and the dashboard for the historical data (2018-2022).
   * The dashboard shows visulaizations related to historical inventory sales volume, profits and costs.
@@ -159,7 +159,7 @@ __Visulizations and Dashboard Views__
         ![image](Images/Dashboard/Historical_data/image_10.png)
 
 
-__Limitations and Assumptions__
+## Limitations and Assumptions
 
   1- There are 134 different product SKUs within the original dataset which can be classified into 10 unique product categories. For the purposes of our analysis and predictive model, we decided to focus on the 10 unique product categories to avoid scope creep.
       
@@ -170,13 +170,13 @@ __Limitations and Assumptions__
   4- We assumed there are no minimum order quantities.
 
 
-__Challenges__
+## Challenges
       
   1- We used Databricks for ETL which truncates the data to 10,000 rows. In order to fix this issue, we used groupings based on yearly and monthly data for each product category which reduced the number of rows to 592.
       
   2- The dashboards in Databricks do not have a default option of adding filters. We used Databricks Widgets to create filters in order to filter by year and by each product category which makes it a more dynamic dashboard.
 
 
-__Conclusion__
+## Conclusion
 
 
