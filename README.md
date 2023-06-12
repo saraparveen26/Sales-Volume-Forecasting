@@ -18,7 +18,7 @@ __Project Overview and Purpose of Data Model__
   - meet customer demand and ensure customer satisfaction<br />
   - avoid having too much inventory which can lead to unnecessary storage and handling costs<br />
   - avoid stockouts which can result in sales loss<br />
-  - maintain high profitablity<br />
+  - maintain high profitability<br />
 
 __Target Audience of Data Model__
 
