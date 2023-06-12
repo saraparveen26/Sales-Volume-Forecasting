@@ -118,46 +118,51 @@ __Visulizations and Dashboard Views__
   * __Here are screenshots of the dashboard:__<br />
   
     **Overall view of dashboard:<br />
-        ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/3e64a55f-3a69-43c3-ac98-0c62376706c7)
+        ![image](Images/Dashboard/Historical_data/image_1.png)
 
     **Word Cloud Chart #1 is based on Product Category Sales Volume<br />
-        ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/170fdd8e-5e4d-44d8-b0ff-6c0f1b7bc97d)
+        ![image](Images/Dashboard/Historical_data/image_2.png)
 
     **Word Cloud Chart #2 is based on Monthly Sales Volumne<br />
-        ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/d372b8f4-7a40-40f8-a0a6-4df4c4a8e1ac)
+        ![image](Images/Dashboard/Historical_data/image_3.png)
 
     **Revenue Breakdown Combo Chart (Bar graph and Line graph)<br />
-        ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/c12d212d-e77b-46b7-88e5-b0f7c11079d0)
+        ![image](Images/Dashboard/Historical_data/image_4.png)
         
     **Total Profit by Month (Stacked Bar graph)<br />
-        ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/d155b821-abc8-40e4-acf0-1ff66443d9f1)
+        ![image](Images/Dashboard/Historical_data/image_5.png)
 
     **Total Profit Table<br />
-        ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/dcdd8178-27f1-4d85-bb4b-d6439f16bbaa)
+        ![image](Images/Dashboard/Historical_data/image_6.png)
 
     **Total Sales Volumee by Month (Area graph)<br />
-        ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/bb486c66-c26e-445f-a172-778b3c9398af)
+        ![image](Images/Dashboard/Historical_data/image_7.png)
 
     **Total Sales Volume Table<br />
-        ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/e9c6d55a-8430-443b-8afc-a5d26eaf0586)
+        ![image](Images/Dashboard/Historical_data/image_8.png)
 
     **Sales Volumne vs Profit (Bubble Size = Cost) (Bubble Chart)<br />
-        ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/457a86f7-a486-4116-99cc-262f92ebbb13)
+        ![image](Images/Dashboard/Historical_data/image_9.png)
 
     **Profit vs Cost Combo Chart (Bar graph and Line graph)<br /> 
-        ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/cf192790-10de-420f-afba-4c7bfa6aed32)
+        ![image](Images/Dashboard/Historical_data/image_10.png)
 
-  * __Here are screenshots of the forecasting dashboard:__<br />
+__Limitations and Assumptions__
 
-__Challenges and Limitations__
-
-1) Back-End<br />
-      - Invoice Date Formatting
-      - Product No. vs Catergory
-      - Assuming unlimited inventory space
+  1- There are 138 different product SKUs within the original dataset which can be classified into 10 unique product categories. For the purposes of our analysis and predictive model, we decided to focus on the 10 unique product categories to avoid scope creep.
       
-2) Front-End
-      - Truncated data in Databricks
-      - Mutiple filter limitations in Databricks
+  2- We have assumed that we have unlimited warehouse space to stored the products in order to meet the sales demand.
+      
+  3- We have assumed we have unlimited resources and budget to order the ideal sales volume.
+      
+  4- We assumed there are no minimum order quantities.
+      
+__Challenges__
+      
+  1- We have Databricks for ETL which trunctates the data to 10,000 rows. In order to fix this issue, we used groupings based on yearly and monthly data for each product cateogry which reduced the number of rows to 592.
+      
+  2- The dashboards in Databricks do not have a default option of adding filters. We used Databricks Widgets to create filters in order to filter by year and by each product category which makes it a more dynamic dashboard.
 
 __Conclusion__
+
+
