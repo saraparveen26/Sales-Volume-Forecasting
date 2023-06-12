@@ -113,9 +113,9 @@ __Data Model Results__
    
 __Visulizations and Dashboard Views__
 
-  * Databricks was utilized to created both the visualizations and dashboards.
-  * Two dashboards were created. The first dashboard showed visulaizations related to historical inventory sales volume data and the second dashboard showed visualizations that leveraged the data model created to predict future inventory sales volumnes.
-  * __Here are screenshots of the historical dashboard:__<br />
+  * Databricks was utilized to created both the visualizations and the dashboard for the historical data (2018-2022).
+  * The dashboard shows visulaizations related to historical inventory sales volume, profits and costs.
+  * __Here are screenshots of the dashboard:__<br />
   
     **Overall view of dashboard:<br />
         ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/3e64a55f-3a69-43c3-ac98-0c62376706c7)
