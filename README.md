@@ -149,7 +149,7 @@ __Visulizations and Dashboard Views__
 
 __Limitations and Assumptions__
 
-  1- There are 138 different product SKUs within the original dataset which can be classified into 10 unique product categories. For the purposes of our analysis and predictive model, we decided to focus on the 10 unique product categories to avoid scope creep.
+  1- There are 134 different product SKUs within the original dataset which can be classified into 10 unique product categories. For the purposes of our analysis and predictive model, we decided to focus on the 10 unique product categories to avoid scope creep.
       
   2- We have assumed that we have unlimited warehouse space to store the products in order to meet the sales demand.
       
