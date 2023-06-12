@@ -69,7 +69,7 @@ s - seasonal length in the data
 
 The following steps were completed to make predictions about overall sales volume using the SARMAX model. 
 
-**NOTE: The following charts are based on data from all 10 product categories. Similar steps were performed for each individual product category and can be viewed by selecting the filter in the Forecasting Dashboard:  @@@@@@@&&&&&&&&&&
+**NOTE: The following charts are based on data from all 10 product categories. Similar steps were performed for each individual product category and can be viewed by selecting the filter in the Forecasting notebook:
 
 1.	Identified the stationarity and difference of the time series:
 Based on the results of the Dickey-Fuller test, the p-value = 0.11034. As the p-value is greater than 0.05, we can suggest that our time series is non-stationary.  
