@@ -41,7 +41,7 @@ __Data Hosting__
 __Database Creation__
 
 * To help setup the database, an ERD schema was created as shown below:
- ![image](IMAGES/ERD.png)
+ ![image](Images/ERD.png)
 
 * Amazon AWS feeds DBS databricks  
 
