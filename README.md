@@ -40,7 +40,7 @@ __Data Hosting__
 
 __Database Creation__
 
-* To help setup the data cleaning and  database parameters an ERD schema was created as shown in the screenshot below:
+* To help setup the database, an ERD schema was created as shown below:
  ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/a322323f-8883-4384-9df9-e2639db790ca)
 
 * Amazon AWS feeds DBS databricks  
