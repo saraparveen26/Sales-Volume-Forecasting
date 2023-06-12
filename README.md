@@ -69,34 +69,34 @@ __Visulizations and Dashboard Views__
   * Two dashboards were created. The first dashboard showed visulaizations related to historical inventory sales volume data and the second dashboard showed visualizations that leveraged the data model created to predict future inventory sales volumnes.
   * __Here are screenshots of the historical dashboard:__<br />
   
-    Overall historical dashboard view:<br />
+    **Overall view of dashboard:<br />
         ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/3e64a55f-3a69-43c3-ac98-0c62376706c7)
 
-    Word Cloud Chart #1 is based on Product Category Sales Volume<br />
+    **Word Cloud Chart #1 is based on Product Category Sales Volume<br />
         ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/170fdd8e-5e4d-44d8-b0ff-6c0f1b7bc97d)
 
-    Word Cloud Chart #2 is based on Monthly Sales Volumne<br />
+    **Word Cloud Chart #2 is based on Monthly Sales Volumne<br />
         ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/d372b8f4-7a40-40f8-a0a6-4df4c4a8e1ac)
 
-    Revenue Breakdown Combo Chart (Bar graph and Line graph)<br />
+    **Revenue Breakdown Combo Chart (Bar graph and Line graph)<br />
         ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/c12d212d-e77b-46b7-88e5-b0f7c11079d0)
         
-    Total Profit by Month (Stacked Bar graph)<br />
+    **Total Profit by Month (Stacked Bar graph)<br />
         ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/d155b821-abc8-40e4-acf0-1ff66443d9f1)
 
-    Total Profit Table<br />
+    **Total Profit Table<br />
         ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/dcdd8178-27f1-4d85-bb4b-d6439f16bbaa)
 
-    Total Sales Volumee by Month (Area graph)<br />
+    **Total Sales Volumee by Month (Area graph)<br />
         ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/bb486c66-c26e-445f-a172-778b3c9398af)
 
-    Total Sales Volume Table<br />
+    **Total Sales Volume Table<br />
         ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/e9c6d55a-8430-443b-8afc-a5d26eaf0586)
 
-    Sales Volumne vs Profit (Bubble Size = Cost) (Bubble Chart)<br />
+    **Sales Volumne vs Profit (Bubble Size = Cost) (Bubble Chart)<br />
         ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/457a86f7-a486-4116-99cc-262f92ebbb13)
 
-    Profit vs Cost Combo Chart (Bar graph and Line graph)<br /> 
+    **Profit vs Cost Combo Chart (Bar graph and Line graph)<br /> 
         ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/cf192790-10de-420f-afba-4c7bfa6aed32)
 
   * __Here are screenshots of the forecasting dashboard:__<br />
