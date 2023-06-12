@@ -123,7 +123,7 @@ __Visulizations and Dashboard Views__
     **Word Cloud Chart #1 is based on Product Category Sales Volume<br />
         ![image](Images/Dashboard/Historical_data/image_2.png)
 
-    **Word Cloud Chart #2 is based on Monthly Sales Volumne<br />
+    **Word Cloud Chart #2 is based on Monthly Sales Volume<br />
         ![image](Images/Dashboard/Historical_data/image_3.png)
 
     **Revenue Breakdown Combo Chart (Bar graph and Line graph)<br />
