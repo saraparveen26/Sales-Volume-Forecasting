@@ -83,14 +83,14 @@ Since our series is not stationary, for further analysis, we need to make the ti
 
 After applying the differencing method, the p-value of the Dickey-Fuller test equals 0.00000, so we can imply that the data is now stationary. We can suggest the other parameters: q=1 (as the first lag has a spike).
 
- ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/7fb664a8-9c50-406a-b474-28edcd1619cb)
+![image](Images/Dashboard/Analysis/sales_difference.png)
 
 
 We can see little spikes at lag 12 and 24 on ACF (AutoCorrelation Function), so P can be equal to 1.
 By decomposition of the time series, we can see the seasonal trend. We are using s =12 because we are using monthly sales volume data for predictions.
 
+ ![image](Images/Dashboard/Analysis/sales_trend.png)
 
- 
 
 3.	Generated the final parameters for the model: 
 In order to find the best parameters for our model, we generated different series of parameters (p, d, q, P, D, Q). The parameters used had the lowest AIC (Akaike’s Information Criterion) scores.
@@ -98,14 +98,12 @@ In order to find the best parameters for our model, we generated different serie
 4.	Ran the SARIMAX model:
 
 The SARIMAX model generated monthly sales volume predictions for the next 12-month period.
- 
+
+![image](Images/Dashboard/Analysis/sales_predictions.png)
 
 We can imply that the model fits well based on the analysis of residuals.
    
-
-
-
- 
+![image](Images/Dashboard/Analysis/sales(1_0_1_0_1).png)
 
 __Data Model Results__
 
