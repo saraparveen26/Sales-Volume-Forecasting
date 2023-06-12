@@ -67,10 +67,11 @@ __Visulizations and Dashboard Views__
 
   * Databricks was utilized to created both the visualizations and dashboards.
   * Two dashboards were created. The first dashboard showed visulaizations related to historical inventory sales volume data and the second dashboard showed visualizations that leveraged the data model created to predict future inventory sales volumnes.
-  * Here are screenshots of the historical dashboard:<br />
+  * __Here are screenshots of the historical dashboard:__<br />
   
-    Overall dashboard view:<br />
-        
+    Overall historical dashboard view:<br />
+        ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/3e64a55f-3a69-43c3-ac98-0c62376706c7)
+
     Word Cloud Chart #1 is based on Product Category Sales Volume<br />
         ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/170fdd8e-5e4d-44d8-b0ff-6c0f1b7bc97d)
 
@@ -98,7 +99,7 @@ __Visulizations and Dashboard Views__
     Profit vs Cost Combo Chart (Bar graph and Line graph)<br /> 
         ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/cf192790-10de-420f-afba-4c7bfa6aed32)
 
-  - Forecasting Dashboard
+  * __Here are screenshots of the forecasting dashboard:__<br />
 
 __Challenges and Limitations__
 
