@@ -1,4 +1,4 @@
-Part_No,Description,Category,Vendor No,Available,On Hand,Current Cost,Volume (inch^3),Length (UDF),Width (UDF),Height (UDF),Weight (UDF),Product Code,Pallet Quantity (Incoming Max) (UDF),Pallet Length (inches) (UDF),Pallet Width (inches) (UDF)
+﻿Part_No,Description,Category,Vendor_No,Available,On_Hand,Current_Cost,Volume_(inch^3),Length_(UDF),Width_(UDF),Height_(UDF),Weight_(UDF),Product_Code,Pallet_Quantity_(Incoming_Max)_(UDF),Pallet_Length_(inches)_(UDF),Pallet_Width_(inches)_(UDF)
 111MedPol009R,Med. Pile Polycarbonate 9Mat 40x40,Polycarbonate Chair Mat,MANU123,0,0,39.597,840.5,41,41,0.5,6,MATS,100,62,50
 111MedPol9RBL,Med.Pile Poly 9Mat 40x40 Blue,Polycarbonate Chair Mat,MANU123,13,13,36.6812,840.5,41,41,0.5,6,MATS,100,62,50
 111MedPol09RC,Med.Pile Poly 9Mat 40x40 Cerise,Polycarbonate Chair Mat,MANU123,0,0,38.62101,840.5,41,41,0.5,6,MATS,100,62,50
@@ -31,12 +31,12 @@ Part_No,Description,Category,Vendor No,Available,On Hand,Current Cost,Volume (in
 123HarPol19ER,Hard Floor Polycarbonate 48x118 Rec,Polycarbonate Chair Mat,MANU123,2,2,91.79,7056,49,12,12,18,MATS,15,52,48
 123HarPVC20LV,Hard Floor PVC 45' x 53' w/lip,PVC Chair Mat,MANU123,0,1,14.37295,1372,46,6,6,10,MATS,100,62,50
 123TeTem48EG," Tempered Glass Chairmat 36"" x 48""",Tempered Glass Chair Mat,MANU123,10,10,91.6962,3868.8,52,40,1.86,40,MATS,25,62,50
-123BlPVCHLBV," Black PVC Chair Mat for Hard Floor Surfaces, Lipped",PVC Chair Mat,MANU123,122,122,13.55948,925,36,4,4,7,MATS,100,62,50
-124StuPVC0PBV,"Student Chairmat 40x40, HF Blue",PVC Chair Mat,MANU123,0,0,22.11,840.5,41,41,0.5,6,MATS,100,62,50
-124StuPVC0PRV,"Student Chairmat 40x40, HF Red",PVC Chair Mat,MANU123,0,0,22.11,840.5,41,41,0.5,6,MATS,100,62,50
+123BlPVCHLBV, Black PVC Chair Mat for Hard Floor Surfaces Lipped,PVC Chair Mat,MANU123,122,122,13.55948,925,36,4,4,7,MATS,100,62,50
+124StuPVC0PBV,Student Chairmat 40x40 HF Blue,PVC Chair Mat,MANU123,0,0,22.11,840.5,41,41,0.5,6,MATS,100,62,50
+124StuPVC0PRV,Student Chairmat 40x40 HF Red,PVC Chair Mat,MANU123,0,0,22.11,840.5,41,41,0.5,6,MATS,100,62,50
 124TeTem53EG," Tempered Glass Chairmat 40"" x 53""",Tempered Glass Chair Mat,MANU123,4,4,110.7912,4746.72,58,44,1.86,44,MATS,25,62,50
-124BlPVCHLBV," Black PVC Chair Mat for Hard Floor Surfaces, Lipped",PVC Chair Mat,MANU123,5,5,32.5352,1372,47,8,8,10,MATS,100,60,50
-124BlPVCHEBV," Black PVC Chair Mat for Hard Floor Surfaces, Rectangular",PVC Chair Mat,MANU123,129,129,23.1696,1550,47,6,6,13,MATS,100,62,50
+124BlPVCHLBV, Black PVC Chair Mat for Hard Floor Surfaces Lipped,PVC Chair Mat,MANU123,5,5,32.5352,1372,47,8,8,10,MATS,100,60,50
+124BlPVCHEBV, Black PVC Chair Mat for Hard Floor Surfaces Rectangular,PVC Chair Mat,MANU123,129,129,23.1696,1550,47,6,6,13,MATS,100,62,50
 128HarPol19ER,Hard Floor Polycarbonate 47x35 Rect,Polycarbonate Chair Mat,MANU123,9,12,30.0696,925,36,6,6,7,MATS,100,62,50
 128HarPol0ERA,Hard Floor Anti Slip Poly 47x35 Rec,Polycarbonate Chair Mat,MANU123,11,12,30.34813,925,50,37,0.5,7,MATS,100,62,50
 129HaPVC17EV," Hard Floor PVC 36""x48""",PVC Chair Mat,MANU123,0,0,11.68,925,,,,,MATS,0,0,0
