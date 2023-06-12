@@ -1,4 +1,4 @@
-## __Group 6 Project 4: Inventory Sales Forecasting__ 
+## __Group 6 Project 4: Sales Volume Forecasting__ 
 
 __Project 4 Group Members:__
 
