@@ -59,13 +59,13 @@ __Data Model Description__
 
 We have used a time series model to make sales volumne predictions. The machine learning model is called SARIMAX (Seasonal Auto-Regressive Integrated Moving Average with eXogenous factors) which is an extension of the ARIMA class of models.
 
-For predicting future sales volumes of each product category, we applied the SARIMAX model which takes into account the past experience (autoregressive model) and seasonality patterns. The model includes the following parameters:
+For predicting future sales volumes of each product category, we applied the SARIMAX model which takes into account the past experience (autoregressive model) and seasonality patterns. The model includes the following parameters:<br />
 
-p - order of the autoregressive part
-d - degree of first differencing involved
-q - order of the moving average part
-P, D, Q - all previous characteristics with seasonal factors
-s - seasonal length in the data
+p - order of the autoregressive part<br />
+d - degree of first differencing involved<br />
+q - order of the moving average part<br />
+P, D, Q - all previous characteristics with seasonal factors<br />
+s - seasonal length in the data<br />
 
 The following steps were completed to make predictions about overall sales volume using the SARMAX model. 
 
