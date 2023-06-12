@@ -67,24 +67,30 @@ __Visulizations and Dashboard Views__
 
   * Databricks was utilized to created both the visualizations and dashboards.
   * Two dashboards were created. The first dashboard showed visulaizations related to historical inventory sales volume data and the second dashboard showed visualizations that leveraged the data model created to predict future inventory sales volumnes.
-  * Here are screenshots of the historical dashboard:
-        Overall dashboard view:
-        Word Cloud Chart #1 is based on Product Category Sales Volume
+  * Here are screenshots of the historical dashboard:<br />
+  
+    Overall dashboard view:<br />
+        
+    Word Cloud Chart #1 is based on Product Category Sales Volume<br />
         ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/170fdd8e-5e4d-44d8-b0ff-6c0f1b7bc97d)
 
-        Word Cloud Chart #2 is based on Monthly Sales Volumne
+    Word Cloud Chart #2 is based on Monthly Sales Volumne<br />
         ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/d372b8f4-7a40-40f8-a0a6-4df4c4a8e1ac)
 
-        Revenue Breakdown Combo Chart (Bar graph and Line graph)
+    Revenue Breakdown Combo Chart (Bar graph and Line graph)<br />
         ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/c12d212d-e77b-46b7-88e5-b0f7c11079d0)
         
-        Total Profit by Month
-        Total Profit Table
-        Total Sales Volumee by Month (Bar graph)
-        Total Sales Volume Table
-        Sales Volumne vs Profit (Bubble Size = Cost) (Bubble Chart)
+    Total Profit by Month<br />
         
-        Profit vs Cost Combo Chart (Bar graph and Line graph) 
+    Total Profit Table<br />
+        
+    Total Sales Volumee by Month (Bar graph)<br />
+        
+    Total Sales Volume Table<br />
+        
+    Sales Volumne vs Profit (Bubble Size = Cost) (Bubble Chart)<br />
+        
+    Profit vs Cost Combo Chart (Bar graph and Line graph)<br /> 
         ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/cf192790-10de-420f-afba-4c7bfa6aed32)
 
   - Forecasting Dashboard
