@@ -80,16 +80,21 @@ __Visulizations and Dashboard Views__
     Revenue Breakdown Combo Chart (Bar graph and Line graph)<br />
         ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/c12d212d-e77b-46b7-88e5-b0f7c11079d0)
         
-    Total Profit by Month<br />
-        
+    Total Profit by Month (Stacked Bar graph)<br />
+        ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/d155b821-abc8-40e4-acf0-1ff66443d9f1)
+
     Total Profit Table<br />
-        
-    Total Sales Volumee by Month (Bar graph)<br />
-        
+        ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/dcdd8178-27f1-4d85-bb4b-d6439f16bbaa)
+
+    Total Sales Volumee by Month (Area graph)<br />
+        ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/bb486c66-c26e-445f-a172-778b3c9398af)
+
     Total Sales Volume Table<br />
-        
+        ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/e9c6d55a-8430-443b-8afc-a5d26eaf0586)
+
     Sales Volumne vs Profit (Bubble Size = Cost) (Bubble Chart)<br />
-        
+        ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/457a86f7-a486-4116-99cc-262f92ebbb13)
+
     Profit vs Cost Combo Chart (Bar graph and Line graph)<br /> 
         ![image](https://github.com/saraparveen26/project4-group6/assets/120427432/cf192790-10de-420f-afba-4c7bfa6aed32)
 
