@@ -147,15 +147,22 @@ __Visulizations and Dashboard Views__
     **Profit vs Cost Combo Chart (Bar graph and Line graph)<br /> 
         ![image](Images/Dashboard/Historical_data/image_10.png)
 
-__Challenges and Limitations__
+__Limitations and Assumptions__
 
-1) Back-End<br />
-      - Invoice Date Formatting
-      - Product No. vs Catergory
-      - Assuming unlimited inventory space
+      1- There are 138 different product SKUs within the original dataset which can be classified into 10 unique product categories. For the purposes of our analysis and predictive model, we decided to focus on the 10 unique product categories to avoid scope creep.
       
-2) Front-End
-      - Truncated data in Databricks
-      - Mutiple filter limitations in Databricks
+      2- We have assumed that we have unlimited warehouse space to stored the products in order to meet the sales demand.
+      
+      3- We have assumed we have unlimited resources and budget to order the ideal sales volume.
+      
+      4- We assumed there are no minimum order quantities.
+      
+__Challenges__
+      
+      1- We have Databricks for ETL which trunctates the data to 10,000 rows. In order to fix this issue, we used groupings based on yearly and monthly data for each product cateogry which reduced the number of rows to 592.
+      
+      2- The dashboards in Databricks do not have a default option of adding filters. We used Databricks Widgets to create filters in order to filter by year and by each product category which makes it a more dynamic dashboard.
 
 __Conclusion__
+
+
