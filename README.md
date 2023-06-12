@@ -126,7 +126,7 @@ __Visulizations and Dashboard Views__
     **Word Cloud Chart #2 is based on Monthly Sales Volume<br />
         ![image](Images/Dashboard/Historical_data/image_3.png)
 
-    **Revenue Breakdown Combo Chart (Bar graph and Line graph)<br />
+    **Revenue Breakdown (Stacked Bar graph)<br />
         ![image](Images/Dashboard/Historical_data/image_4.png)
         
     **Total Profit by Month (Stacked Bar graph)<br />
