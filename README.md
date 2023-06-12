@@ -1,5 +1,12 @@
 ## __Group 6 Project 4: Inventory Sales Forecasting__ 
 
+__Project 4 Group Members:__
+
+* Zachary Corbett
+* Victor Donstov
+* Sara Parveen
+* Set Z
+
 __Project Overview and Purpose of Data Model__
 
 * For this project, we focused on improving the inventory planning process of an anonymous company.
