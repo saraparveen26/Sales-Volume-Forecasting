@@ -47,7 +47,13 @@ __Database Creation__
 
 __Data Cleaning__      
 
-* PySpark for ETL
+* The ETL performed using PySpark by completing the following steps:
+    1) Loading and merging dataframes
+    2) Selecting and filtering the columns to be used
+    3) Converting the columns to the appropriate data type 
+    4) Groupings the data to get yearly and monthly aggregates
+
+%%%%%%%%%%%@@@@* The ETL process is documented in the Databricks notebook which can be viewed here:  
 
 __Data Model Description__
 
