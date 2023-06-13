@@ -43,6 +43,16 @@ The target audiences for this model are:<br />
 * The database schema was stored in the Databricks File System (DBFS) through a Databricks Community Account
 
 
+## Data Cleaning     
+
+* The ETL performed using PySpark by completing the following steps:
+    1) Loading and merging DataFrames
+    2) Selecting and filtering the columns to be used
+    3) Converting the columns to the appropriate data type 
+    4) Groupings the data to get yearly and monthly aggregates
+
+%%%%%%%%%%%@@@@* The ETL process is documented in the Databricks notebook which can be viewed here: 
+
 
 ## Database Creation
 
@@ -52,17 +62,6 @@ The target audiences for this model are:<br />
 
 * The schema was defined using [PySpark SQL](https://sparkbyexamples.com/pyspark/pyspark-sql-with-examples/) in the Databricks notebook: ["Data Management Python"]()
 * Amazon AWS feeds DBS databricks  
-
-
-## Data Cleaning     
-
-* The ETL performed using PySpark by completing the following steps:
-    1) Loading and merging DataFrames
-    2) Selecting and filtering the columns to be used
-    3) Converting the columns to the appropriate data type 
-    4) Groupings the data to get yearly and monthly aggregates
-
-%%%%%%%%%%%@@@@* The ETL process is documented in the Databricks notebook which can be viewed here:  
 
 
 ## Data Model Description
@@ -81,9 +80,7 @@ s - seasonal length in the data<br />
 
 The following steps were completed to make predictions about overall sales volume using the SARMAX model. 
 
-**NOTE: The following charts are based on data from all 10 product categories. Similar steps were performed for each individual product category and can be viewed by selecting the filter in the Forecasting notebook: @@@@@@@@@@@@@######
-
-**1.	Identified the stationarity and difference of the time series:**
+**1.	Identified the stationarity of the time series:**
 
 Based on the results of the Dickey-Fuller test, the p-value = 0.11034. As the p-value is greater than 0.05, we can suggest that our time series is non-stationary.  
 
@@ -108,6 +105,8 @@ By decomposition of the time series, we can see the seasonal trend. We are using
 
 In order to find the best parameters for our model, we generated different series of parameters (p, d, q, P, D, Q). The parameters chosen were based on the lowest AIC (Akaike’s Information Criterion) scores.
 
+![image](Images/SARIMAX/Analysis/parameters.png)
+
 **4.	Ran the SARIMAX model:**
 
 The SARIMAX model generated monthly sales volume predictions for the next 12-month period. The predictions for the overall sales volume has a Mean Absolute Percentage Error of 12.72%.
@@ -119,48 +118,96 @@ We can imply that the model fits well based on the analysis of residuals.
 ![image](Images/SARIMAX/Analysis/Sales_err.png)
 
 
+**Attempt to Optimize the Model**
+
+The charts in the section above are based on data from all 10 product categories. Similar steps were performed for each individual product category and can be viewed in the [Images](Images/SARIMAX/) folder. These visualizations showing Analysis and Predictions are based on the optimized model. The optimization was attempted by selecting different parameters for the order to try and improve the accuracy.
+
+The results of the first attempt at implementing the model can be viewed in the [Images](Images/SARIMAX/Old%20Model/) folder/
+
+Following tables shows a comparison of the Mean Absolute Percentage Errors for the two attempts:
+
+![image](Images/SARIMAX/model_optimization_attempt.PNG)
+
+
 ## Data Model Results
 
-  * train and testing
-  * Overall model performance is printed or displayed at the end of the script
-   * The model demonstrates meaningful predictive power at least 75% classification accuracy or 0.80 R-squared.
+  * The model was trained on first four years of data (2018 - 2021). This time series model creates an equation which can then be used to test against the current data and predict future sales volumes.
+  * Although the model generated good results for the overall sales but it did not have good accuracy for some product categories even after the optimization.
    
 
 ## Visulizations and Dashboard Views
 
-  * Databricks was utilized to created both the visualizations and the dashboard for the historical data (2018-2022).
-  * The dashboard shows visulaizations related to historical inventory sales volume, profits and costs.
+  * Databricks was utilized to created both the visualizations and the dashboards.
+  * Two dashboards were created: One for the historical data (2018-2022), and the second for the Predicted Sales data (2023) which was extracted from the SARIMAX model.
+
+  **Dashboard 1: Historical data (2018-2022)**
+  * This dashboard shows visulaizations related to historical inventory sales volume, profits and costs.
   * __Here are screenshots of the dashboard:__<br />
   
-    **Overall view of dashboard:<br />
-        ![image](Images/Dashboard/Historical_data/image_1.png)
+    ***Overall view of dashboard:***
 
-    **Word Cloud Chart #1 is based on Product Category Sales Volume<br />
-        ![image](Images/Dashboard/Historical_data/image_2.png)
+    ![image](Images/Dashboard_Historical/image_1.png)
 
-    **Word Cloud Chart #2 is based on Monthly Sales Volume<br />
-        ![image](Images/Dashboard/Historical_data/image_3.png)
+    ***Word Cloud Chart #1 is based on Product Category Sales Volume***
 
-    **Revenue Breakdown (Stacked Bar graph)<br />
-        ![image](Images/Dashboard/Historical_data/image_4.png)
+    ![image](Images/Dashboard_Historical/image_2.png)
+
+    ***Word Cloud Chart #2 is based on Monthly Sales Volume***
+
+    ![image](Images/Dashboard_Historical/image_3.png)
+
+    ***Revenue Breakdown (Stacked Bar graph)***
+
+    ![image](Images/Dashboard_Historical/image_4.png)
         
-    **Total Profit by Month (Stacked Bar graph)<br />
-        ![image](Images/Dashboard/Historical_data/image_5.png)
+    ***Total Profit by Month (Stacked Bar graph)***
 
-    **Total Profit Table<br />
-        ![image](Images/Dashboard/Historical_data/image_6.png)
+    ![image](Images/Dashboard_Historical/image_5.png)
 
-    **Total Sales Volumee by Month (Area graph)<br />
-        ![image](Images/Dashboard/Historical_data/image_7.png)
+    ***Total Profit Table***
 
-    **Total Sales Volume Table<br />
-        ![image](Images/Dashboard/Historical_data/image_8.png)
+    ![image](Images/Dashboard_Historical/image_6.png)
 
-    **Sales Volumne vs Profit (Bubble Size = Cost) (Bubble Chart)<br />
-        ![image](Images/Dashboard/Historical_data/image_9.png)
+    ***Total Sales Volumee by Month (Area graph)***
 
-    **Profit vs Cost Combo Chart (Bar graph and Line graph)<br /> 
-        ![image](Images/Dashboard/Historical_data/image_10.png)
+    ![image](Images/Dashboard_Historical/image_7.png)
+
+    ***Total Sales Volume Table***
+
+    ![image](Images/Dashboard_Historical/image_8.png)
+
+    ***Sales Volumne vs Profit (Bubble Size = Cost) (Bubble Chart)***
+
+    ![image](Images/Dashboard_Historical/image_9.png)
+
+    ***Profit vs Cost Combo Chart (Bar graph and Line graph)***
+
+    ![image](Images/Dashboard_Historical/image_10.png)
+
+
+**Dashboard 2: Predictions data (2023)**
+  * This dashboard shows visulaizations related to predicted sales volume, margin error and mean absolute percentage error.
+  * __Here are screenshots of the dashboard:__<br />
+  
+    ***Overall view of dashboard:***
+
+    ![image](Images/Dashboard_Predictions/image_1.png)
+
+    ***Predicted Sales Quantity Table***
+
+    ![image](Images/Dashboard_Predictions/image_2.png)
+
+    ***Margin Error Table***
+
+    ![image](Images/Dashboard_Predictions/image_3.png)
+
+    ***Mean Absolute Percentage Error Table***
+
+    ![image](Images/Dashboard_Predictions/image_4.png)
+        
+    ***Mean Absolute Percentage Error vs AIC Scores (Bubble Size = Predcited Sales Quantity) (Bubble Chart)***
+    
+    ![image](Images/Dashboard_Predictions/image_5.png)
 
 
 ## Limitations and Assumptions
@@ -180,7 +227,7 @@ We can imply that the model fits well based on the analysis of residuals.
       
   2- The dashboards in Databricks do not have a default option of adding filters. We used Databricks Widgets to create filters in order to filter by year and by each product category which makes it a more dynamic dashboard.
   
-  3- The dashboards filters do not carry over into the HTML file that is exported from the Databricks dashboards.
+  3- The dashboards filters in Databricks do not carry over into the HTML file that is exported from the Databricks dashboards.
 
 
 ## Conclusion
