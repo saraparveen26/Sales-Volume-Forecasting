@@ -11,14 +11,14 @@
 ## Project Overview and Purpose of Data Model
 
 * For this project, we focused on improving the inventory planning process of an anonymous company.
-* This anonymous company acts as a product distributor by purchasing office products from manufacturers, holding them and then reselling them to its business customers.
-* By analyzing their office products' purchase, sales and product details data, we created a data model that makes predictions about the sales quantities for different product categories to be ordered in the future. 
-* Knowing how much will be sold of each product category in the future can help determine how much of each product category should be kept in stock at any given time.
-* Having a tool that assists in determining the ideal amount of inventory to have in stock at any given time is crucial to:<br />
+* This anonymous company acts as a product distributor by purchasing office products from manufacturers, holding them and then reselling them to retailers and end-users.
+* By analyzing their office products' purchases, sales and product details data, we created a data model that makes predictions of predicted sales quantities for each product category. 
+* Knowing how much will be sold of each product category in the future can help determine how much of each product category should be ordered or kept in stock at any given time.
+* Having a tool that assists in determining the ideal inventory levels at any given time is crucial to:<br />
 
   - meet customer demand and ensure customer satisfaction<br />
   - avoid having too much inventory which can lead to unnecessary storage and handling costs<br />
-  - avoid stockouts which can result in sales loss<br />
+  - avoid stockouts which can result in sales loss and/or fines from customers<br />
   - maintain high profitability<br />
 
 
@@ -26,7 +26,7 @@
 
 The target audiences for this model are:<br />
 
-  - the anonymous company whose data was analyzed<br />
+  - the anonymous company whose data was analyzed as well as other distributors, manufacturers or retailers that depend on predicting future sales for procurement and res<br />
   - all product sales planning, supply chain, and procurement professionals<br />
 
 
@@ -34,13 +34,13 @@ The target audiences for this model are:<br />
 
 * The data used for this project comes in the form of CSV files obtained from the anonymous company. 
 * The original data has been anonymized for the purposes of this project. 
-* The CSVs have 5-years worth of data (2018 to 2022) for Purchase, Sales and Product Details.
+* The CSVs contain 5-years worth of data (2018 to 2022) for Purchases, Sales as well as Product Details.
 
 
 ## Data Hosting
 
-* Amazon AWS for hosting the CSV files 
-* The model utilizes data retrieved from Pysark SQL 
+* The raw CSV data files are hosted on an S3 Bucket through Amazon AWS
+* The database schema was stored in the Databricks File System (DBFS) through a Databricks Community Account
 
 
 ## Data Cleaning     
@@ -60,10 +60,13 @@ The target audiences for this model are:<br />
 
  ![image](Images/ERD.png)
 
-* Amazon AWS feeds DBS databricks   
+* The schema was defined using [PySpark SQL](https://sparkbyexamples.com/pyspark/pyspark-sql-with-examples/) in the Databricks notebook: ["Data Management Python"]()
+* Amazon AWS feeds DBS databricks  
 
 
 ## Data Model Description
+
+* The model utilizes data retrieved from Pysark SQL
 
 We have used a time series model to make sales volumne predictions. The machine learning model is called SARIMAX (Seasonal Auto-Regressive Integrated Moving Average with eXogenous factors) which is an extension of the ARIMA class of models.
 
