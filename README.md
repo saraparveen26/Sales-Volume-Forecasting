@@ -233,4 +233,4 @@ We tried running the model on Databricks but had trouble creating one of the cha
 
 ## Conclusion
 
-
+To help improve the usability of the model for future use, we can consider more variables within model. For example, we can consider the limitations of inventory space, budget constraints and minimum inventory orders. We can also expand the model to predict multiple years of inventory needs as opposed to just one. 
