@@ -26,7 +26,7 @@
 
 The target audiences for this model are:<br />
 
-  - the anonymous company whose data was analyzed as well as other distributors, manufacturers or retailers that depend on predicting future sales for procurement and res<br />
+  - the anonymous company whose data was analyzed as well as other distributors, manufacturers or retailers that depend on predicting future sales for goods procurement<br />
   - all product sales planning, supply chain, and procurement professionals<br />
 
 
