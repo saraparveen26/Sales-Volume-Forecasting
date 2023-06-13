@@ -43,15 +43,6 @@ The target audiences for this model are:<br />
 * The model utilizes data retrieved from Pysark SQL 
 
 
-## Database Creation
-
-* To help setup the database, an ERD schema was created as shown below:
-
- ![image](Images/ERD.png)
-
-* Amazon AWS feeds DBS databricks  
-
-
 ## Data Cleaning     
 
 * The ETL performed using PySpark by completing the following steps:
@@ -60,7 +51,16 @@ The target audiences for this model are:<br />
     3) Converting the columns to the appropriate data type 
     4) Groupings the data to get yearly and monthly aggregates
 
-%%%%%%%%%%%@@@@* The ETL process is documented in the Databricks notebook which can be viewed here:  
+%%%%%%%%%%%@@@@* The ETL process is documented in the Databricks notebook which can be viewed here: 
+
+
+## Database Creation
+
+* To help setup the database, an ERD schema was created as shown below:
+
+ ![image](Images/ERD.png)
+
+* Amazon AWS feeds DBS databricks   
 
 
 ## Data Model Description
