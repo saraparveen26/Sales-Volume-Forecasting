@@ -144,53 +144,69 @@ Following tables shows a comparison of the Mean Absolute Percentage Errors for t
   * This dashboard shows visulaizations related to historical inventory sales volume, profits and costs.
   * __Here are screenshots of the dashboard:__<br />
   
-    **Overall view of dashboard:<br />
+    ***Overall view of dashboard:***
+
         ![image](Images/Dashboard_Historical/image_1.png)
 
-    **Word Cloud Chart #1 is based on Product Category Sales Volume<br />
+    ***Word Cloud Chart #1 is based on Product Category Sales Volume***
+
         ![image](Images/Dashboard_Historical/image_2.png)
 
-    **Word Cloud Chart #2 is based on Monthly Sales Volume<br />
+    ***Word Cloud Chart #2 is based on Monthly Sales Volume***
+
         ![image](Images/Dashboard_Historical/image_3.png)
 
-    **Revenue Breakdown (Stacked Bar graph)<br />
+    ***Revenue Breakdown (Stacked Bar graph)***
+
         ![image](Images/Dashboard_Historical/image_4.png)
         
-    **Total Profit by Month (Stacked Bar graph)<br />
+    ***Total Profit by Month (Stacked Bar graph)***
+
         ![image](Images/Dashboard_Historical/image_5.png)
 
-    **Total Profit Table<br />
+    ***Total Profit Table***
+
         ![image](Images/Dashboard_Historical/image_6.png)
 
-    **Total Sales Volumee by Month (Area graph)<br />
+    ***Total Sales Volumee by Month (Area graph)***
+
         ![image](Images/Dashboard_Historical/image_7.png)
 
-    **Total Sales Volume Table<br />
+    ***Total Sales Volume Table***
+
         ![image](Images/Dashboard_Historical/image_8.png)
 
-    **Sales Volumne vs Profit (Bubble Size = Cost) (Bubble Chart)<br />
+    ***Sales Volumne vs Profit (Bubble Size = Cost) (Bubble Chart)***
+
         ![image](Images/Dashboard_Historical/image_9.png)
 
-    **Profit vs Cost Combo Chart (Bar graph and Line graph)<br /> 
+    ***Profit vs Cost Combo Chart (Bar graph and Line graph)***
+
         ![image](Images/Dashboard_Historical/image_10.png)
+
 
 **Dashboard 2: Predictions data (2023)**
   * This dashboard shows visulaizations related to predicted sales volume, margin error and mean absolute percentage error.
   * __Here are screenshots of the dashboard:__<br />
   
-    **Overall view of dashboard:<br />
+    ***Overall view of dashboard:***
+
         ![image](Images/Dashboard_Predictions/image_1.png)
 
-    **Predicted Sales Quantity Table<br />
+    ***Predicted Sales Quantity Table***
+
         ![image](Images/Dashboard_Predictions/image_2.png)
 
-    **Margin Error Table<br />
+    ***Margin Error Table***
+
         ![image](Images/Dashboard_Predictions/image_3.png)
 
-    **Mean Absolute Percentage Error Table<br />
+    ***Mean Absolute Percentage Error Table***
+
         ![image](Images/Dashboard_Predictions/image_4.png)
         
-    **Mean Absolute Percentage Error vs AIC Scores (Bubble Size = Predcited Sales Quantity) (Bubble Chart)<br />
+    ***Mean Absolute Percentage Error vs AIC Scores (Bubble Size = Predcited Sales Quantity) (Bubble Chart)***
+    
         ![image](Images/Dashboard_Predictions/image_5.png)
 
 
