@@ -176,7 +176,7 @@ We can imply that the model fits well based on the analysis of residuals.
       
   2- The dashboards in Databricks do not have a default option of adding filters. We used Databricks Widgets to create filters in order to filter by year and by each product category which makes it a more dynamic dashboard.
   
-  3- The dashboards filters do not carry over into the HTML file that is exported from the Databricks dashboards.
+  3- The dashboards filters in Databricks do not carry over into the HTML file that is exported from the Databricks dashboards.
 
 
 ## Conclusion
