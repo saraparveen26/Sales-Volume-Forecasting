@@ -146,43 +146,43 @@ Following tables shows a comparison of the Mean Absolute Percentage Errors for t
   
     ***Overall view of dashboard:***
 
-        ![image](Images/Dashboard_Historical/image_1.png)
+    ![image](Images/Dashboard_Historical/image_1.png)
 
     ***Word Cloud Chart #1 is based on Product Category Sales Volume***
 
-        ![image](Images/Dashboard_Historical/image_2.png)
+    ![image](Images/Dashboard_Historical/image_2.png)
 
     ***Word Cloud Chart #2 is based on Monthly Sales Volume***
 
-        ![image](Images/Dashboard_Historical/image_3.png)
+    ![image](Images/Dashboard_Historical/image_3.png)
 
     ***Revenue Breakdown (Stacked Bar graph)***
 
-        ![image](Images/Dashboard_Historical/image_4.png)
+    ![image](Images/Dashboard_Historical/image_4.png)
         
     ***Total Profit by Month (Stacked Bar graph)***
 
-        ![image](Images/Dashboard_Historical/image_5.png)
+    ![image](Images/Dashboard_Historical/image_5.png)
 
     ***Total Profit Table***
 
-        ![image](Images/Dashboard_Historical/image_6.png)
+    ![image](Images/Dashboard_Historical/image_6.png)
 
     ***Total Sales Volumee by Month (Area graph)***
 
-        ![image](Images/Dashboard_Historical/image_7.png)
+    ![image](Images/Dashboard_Historical/image_7.png)
 
     ***Total Sales Volume Table***
 
-        ![image](Images/Dashboard_Historical/image_8.png)
+    ![image](Images/Dashboard_Historical/image_8.png)
 
     ***Sales Volumne vs Profit (Bubble Size = Cost) (Bubble Chart)***
 
-        ![image](Images/Dashboard_Historical/image_9.png)
+    ![image](Images/Dashboard_Historical/image_9.png)
 
     ***Profit vs Cost Combo Chart (Bar graph and Line graph)***
 
-        ![image](Images/Dashboard_Historical/image_10.png)
+    ![image](Images/Dashboard_Historical/image_10.png)
 
 
 **Dashboard 2: Predictions data (2023)**
@@ -191,23 +191,23 @@ Following tables shows a comparison of the Mean Absolute Percentage Errors for t
   
     ***Overall view of dashboard:***
 
-        ![image](Images/Dashboard_Predictions/image_1.png)
+    ![image](Images/Dashboard_Predictions/image_1.png)
 
     ***Predicted Sales Quantity Table***
 
-        ![image](Images/Dashboard_Predictions/image_2.png)
+    ![image](Images/Dashboard_Predictions/image_2.png)
 
     ***Margin Error Table***
 
-        ![image](Images/Dashboard_Predictions/image_3.png)
+    ![image](Images/Dashboard_Predictions/image_3.png)
 
     ***Mean Absolute Percentage Error Table***
 
-        ![image](Images/Dashboard_Predictions/image_4.png)
+    ![image](Images/Dashboard_Predictions/image_4.png)
         
     ***Mean Absolute Percentage Error vs AIC Scores (Bubble Size = Predcited Sales Quantity) (Bubble Chart)***
     
-        ![image](Images/Dashboard_Predictions/image_5.png)
+    ![image](Images/Dashboard_Predictions/image_5.png)
 
 
 ## Limitations and Assumptions
