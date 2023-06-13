@@ -119,7 +119,7 @@ We can imply that the model fits well based on the analysis of residuals.
 
 The charts in the section above are based on data from all 10 product categories. Similar steps were performed for each individual product category and can be viewed in the [Images](Images/SARIMAX/) folder. These visualizations showing Analysis and Predictions are based on the optimized model. The optimization was attempted by selecting different parameters in order to try and improve the accuracy.
 
-The results of the first attempt at implementing the model can be viewed in the [Images](Images/SARIMAX/Old%20Model/) folder/
+The results of the first attempt at implementing the model can be viewed in the [Images](Images/SARIMAX/Old%20Model/) folder.
 
 Following tables shows a comparison of the Mean Absolute Percentage Errors for the two attempts:
 
@@ -140,7 +140,8 @@ We tried running the model on Databricks but had trouble creating one of the cha
   * Two dashboards were created: One for the historical data (2018-2022), and the second for the Predicted Sales data (2023) which was extracted from the SARIMAX model.
 
   **Dashboard 1: Historical data (2018-2022)**
-  * This dashboard shows visulaizations related to historical inventory sales volume, profits and costs.
+  * This dashboard shows visulaizations related to historical inventory sales volume, profits and costs. 
+  * The HTML version of the Databricks dashboard can be accessed [here](Notebooks_Databricks/HTML/Historical_Dashboard.html). (Please note that this version does not display the filters which are visible and functional on the local file).
   * __Here are screenshots of the dashboard:__<br />
   
     ***Overall view of dashboard:***
@@ -186,6 +187,7 @@ We tried running the model on Databricks but had trouble creating one of the cha
 
 **Dashboard 2: Predictions data (2023)**
   * This dashboard shows visulaizations related to predicted sales volume, margin error and mean absolute percentage error.
+    * The HTML version of the Databricks dashboard can be accessed [here](Notebooks_Databricks/HTML/Predictions_Dashboard.html). (Please note that this version does not display the filters which are visible and functional on the local file).
   * __Here are screenshots of the dashboard:__<br />
   
     ***Overall view of dashboard:***
