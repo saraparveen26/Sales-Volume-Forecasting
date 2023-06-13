@@ -63,7 +63,7 @@ The target audiences for this model are:<br />
 
 ## Data Model Description
 
-* The model utilizes data retrieved from Pysark SQL
+* The model utilizes data retrieved from Pysark SQL.
 
 We have used a time series model to make sales volumne predictions. The machine learning model is called SARIMAX (Seasonal Auto-Regressive Integrated Moving Average with eXogenous factors) which is an extension of the ARIMA class of models.
 
@@ -125,10 +125,12 @@ Following tables shows a comparison of the Mean Absolute Percentage Errors for t
 
 ![image](Images/SARIMAX/model_optimization_attempt.PNG)
 
+We tried running the model on Databricks but had trouble creating one of the charts due to formatting errors. So we have used Jupyter Notebook primarily for running the model and creating the charts which can be accessed in [Notebook_Jupyter](Notebook_Jupyter/) folder. The attempt to runit on Databricks can be accessed in [Notebooks_Databricks/] folder.
+
 
 ## Data Model Results
 
-  * The model was trained on first four years of data (2018 - 2021). This time series model creates an equation which can then be used to test against the current data and predict future sales volumes.
+  * The model was trained on first four years of data (2018 - 2021). This time series model creates an equation which was then be used to test against the 2022 data and predict future sales volumes.
   * Although the model generated good results for the overall sales but it did not have good accuracy for some product categories even after the optimization.
    
 
