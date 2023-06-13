@@ -125,7 +125,7 @@ Following tables shows a comparison of the Mean Absolute Percentage Errors for t
 
 ![image](Images/SARIMAX/model_optimization_attempt.PNG)
 
-We tried running the model on Databricks but had trouble creating one of the charts due to formatting errors. So we have used Jupyter Notebook primarily for running the model and creating the charts which can be accessed in [Notebook_Jupyter](Notebook_Jupyter/) folder. The attempt to run it on Databricks can be accessed in [Notebooks_Databricks](Notebooks_Databricks/) folder.
+We tried running the model on Databricks but had trouble creating one of the charts due to formatting errors. So we have used Jupyter Notebook primarily for running the model and creating the charts. The two attempts in Jupyter Notebook for model optimization can be accessed in [Notebook_Jupyter](Notebook_Jupyter/) folder. The attempt to run it on Databricks can be accessed in [Notebooks_Databricks](Notebooks_Databricks/) folder.
 
 
 ## Data Model Results
