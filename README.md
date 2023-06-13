@@ -40,28 +40,25 @@ The target audiences for this model are:<br />
 ## Data Hosting
 
 * The raw CSV data files are hosted on an S3 Bucket through Amazon AWS
-* The database schema was stored in the Databricks File System (DBFS) through a Databricks Community Account
+* The database schema was stored in the [Databricks File System (DBFS)](https://docs.databricks.com/dbfs/index.html) through a [Databricks Community Edition Account](https://www.databricks.com/product/faq/community-edition). This file system is ultimately hosted on AWS without charges for computing ([Community Edition](https://docs.databricks.com/getting-started/community-edition.html)).
 
 
-## Data Cleaning     
-
-* The ETL performed using PySpark by completing the following steps:
-    1) Loading and merging DataFrames
-    2) Selecting and filtering the columns to be used
-    3) Converting the columns to the appropriate data type 
-    4) Groupings the data to get yearly and monthly aggregates
-
-%%%%%%%%%%%@@@@* The ETL process is documented in the Databricks notebook which can be viewed here: 
-
-
-## Database Creation
+## Database Creation and Data Cleaning
 
 * To help setup the database, an ERD schema was created as shown below:
 
  ![image](Images/ERD.png)
 
-* The schema was defined using [PySpark SQL](https://sparkbyexamples.com/pyspark/pyspark-sql-with-examples/) in the Databricks notebook: ["Data Management Python"]()
-* Amazon AWS feeds DBS databricks  
+* The schema was defined using [PySpark SQL](https://sparkbyexamples.com/pyspark/pyspark-sql-with-examples/) in the Databricks notebook: ["Data Management Python"](https://github.com/saraparveen26/project4-group6/blob/main/Notebooks_Databricks/Data%20Management%20Python.ipynb)
+* Once the schema is defined, the raw CSV files are read in from the S3 Bucket and transformed to meet the Table requirements defined by the schema.
+* The ETL performed using PySpark by completing the following steps:
+    1) Loading and merging DataFrames
+    2) Selecting and filtering the columns to be used
+    3) Converting the columns to the appropriate data type 
+    4) Groupings the data to get yearly and monthly aggregates
+    The ETL process is documented in the Databricks notebook which can be viewed here: ["ETL_Data_Cleaning"](https://github.com/saraparveen26/project4-group6/blob/main/Notebooks_Databricks/ETL_Data_Cleaning.ipynb) as an export of the ETL script.
+* The transformed data is then inserted into their respective Tables.
+* Due to the limitations of the free [Community Edition](https://www.databricks.com/product/faq/community-edition) tier of Databricks, the ["Data Management Python"](https://github.com/saraparveen26/project4-group6/blob/main/Notebooks_Databricks/Data%20Management%20Python.ipynb) and ["ETL_Data_Cleaning"](https://github.com/saraparveen26/project4-group6/blob/main/Notebooks_Databricks/ETL_Data_Cleaning.ipynb) Databricks notebooks are run whenever a new [Cluster](https://docs.databricks.com/clusters/index.html) is connected.
 
 
 ## Data Model Description
