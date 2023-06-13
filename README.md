@@ -221,6 +221,8 @@ We tried running the model on Databricks but had trouble creating one of the cha
       
   4- We assumed there are no minimum order quantities.
 
+  5- The time period covered by the raw data includes the early years of the COVID-19 global pandemic. This introduced a significant number of external factors which could be considered as outliers or could contribute to a higher number of outliers within the dataset.
+
 
 ## Challenges
       
@@ -233,4 +235,22 @@ We tried running the model on Databricks but had trouble creating one of the cha
 
 ## Conclusion
 
-To help improve the usability of the model for future use, we can consider more variables within model. For example, we can consider the limitations of inventory space, budget constraints and minimum inventory orders. We can also expand the model to predict multiple years of inventory needs as opposed to just one. 
+In our project, we created a statistical (SARIMAX) model to estimate the future sales of a distribution company. This model was based on an analysis of the historical sales (unit sales volume) for 10 product categories over the last 5 year period (2018 - 2022).
+
+The sales predictions using the SARIMAX model are helpful but they do have certain limitations. Using other available models to take into factor the space/ dimensions of the warehouse as well as budget constraints will help to make more applicable predictions. These changes will require additional resources.
+
+The Margin Error increases as we predict further into the future. This limits the use case of the model to shorter ordering intervals (1-3 months of stock). This may prove appropriate for a distributor/ retailer that is operating with a Just-In-Time (JIT) principal in mind.
+
+![image](Images/SARIMAX/Predictions/Sales.png)
+
+The sales predictions produced by the SARIMAX model show that the overall sales will slightly decline next year. Though for the majority of product categories, sales are not expected to change significantly. Based on the SARIMAX model predictions, following categories are expected to exhibit stable sales in the coming year:
+
+| Category | % Share of Unit Sales |
+| ----------- | ----------- |
+| PVC Chair Mat | 35% |
+| Desk Pad | 19% |
+| Polycarbonate Chair Mat | 13% |
+| Recycled Chair Mat| 12% |
+| Anti-Fatigue Mat| 9% |
+
+In the end, SARIMAX does seem like a very appropriate model for predicting sales volumes based on historical time series.
