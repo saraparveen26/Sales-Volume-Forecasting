@@ -175,6 +175,8 @@ We can imply that the model fits well based on the analysis of residuals.
   1- We used Databricks for ETL which truncates the data to 10,000 rows. In order to fix this issue, we used groupings based on yearly and monthly data for each product category which reduced the number of rows to 592.
       
   2- The dashboards in Databricks do not have a default option of adding filters. We used Databricks Widgets to create filters in order to filter by year and by each product category which makes it a more dynamic dashboard.
+  
+  3- The dashboards filters do not carry over into the HTML file that is exported from the Databricks dashboards.
 
 
 ## Conclusion
