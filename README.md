@@ -117,7 +117,7 @@ We can imply that the model fits well based on the analysis of residuals.
 
 **Attempt to Optimize the Model**
 
-The charts in the section above are based on data from all 10 product categories. Similar steps were performed for each individual product category and can be viewed in the [Images](Images/SARIMAX/) folder. These visualizations showing Analysis and Predictions are based on the optimized model. The optimization was attempted by selecting different parameters for the order to try and improve the accuracy.
+The charts in the section above are based on data from all 10 product categories. Similar steps were performed for each individual product category and can be viewed in the [Images](Images/SARIMAX/) folder. These visualizations showing Analysis and Predictions are based on the optimized model. The optimization was attempted by selecting different parameters in order to try and improve the accuracy.
 
 The results of the first attempt at implementing the model can be viewed in the [Images](Images/SARIMAX/Old%20Model/) folder/
 
@@ -125,7 +125,7 @@ Following tables shows a comparison of the Mean Absolute Percentage Errors for t
 
 ![image](Images/SARIMAX/model_optimization_attempt.PNG)
 
-We tried running the model on Databricks but had trouble creating one of the charts due to formatting errors. So we have used Jupyter Notebook primarily for running the model and creating the charts which can be accessed in [Notebook_Jupyter](Notebook_Jupyter/) folder. The attempt to runit on Databricks can be accessed in [Notebooks_Databricks/] folder.
+We tried running the model on Databricks but had trouble creating one of the charts due to formatting errors. So we have used Jupyter Notebook primarily for running the model and creating the charts which can be accessed in [Notebook_Jupyter](Notebook_Jupyter/) folder. The attempt to run it on Databricks can be accessed in [Notebooks_Databricks](Notebooks_Databricks/) folder.
 
 
 ## Data Model Results
