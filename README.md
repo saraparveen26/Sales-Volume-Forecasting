@@ -56,9 +56,9 @@ The target audiences for this model are:<br />
     2) Selecting and filtering the columns to be used
     3) Converting the columns to the appropriate data type 
     4) Groupings the data to get yearly and monthly aggregates
-    The ETL process is documented in the Databricks notebook which can be viewed here: ["ETL_Data_Cleaning"](https://github.com/saraparveen26/project4-group6/blob/main/Notebooks_Databricks/ETL_Data_Cleaning.ipynb) as an export of the ETL script.
+    The ETL process is documented in the Databricks notebook which can be viewed here: ["ETL_Data_Cleaning"](https://github.com/saraparveen26/project4-group6/blob/main/Notebooks_Databricks/Jupyter_Notebooks/ETL_Data_Cleaning.ipynb) as an export of the ETL script.
 * The transformed data is then inserted into their respective Tables.
-* Due to the limitations of the free [Community Edition](https://www.databricks.com/product/faq/community-edition) tier of Databricks, the ["Data Management Python"](https://github.com/saraparveen26/project4-group6/blob/main/Notebooks_Databricks/Data%20Management%20Python.ipynb) and ["ETL_Data_Cleaning"](https://github.com/saraparveen26/project4-group6/blob/main/Notebooks_Databricks/ETL_Data_Cleaning.ipynb) Databricks notebooks are run whenever a new [Cluster](https://docs.databricks.com/clusters/index.html) is connected.
+* Due to the limitations of the free [Community Edition](https://www.databricks.com/product/faq/community-edition) tier of Databricks, the ["Data Management Python"](https://github.com/saraparveen26/project4-group6/blob/main/Notebooks_Databricks/Jupyter_Notebooks/Data%20Management%20Python.ipynb) and ["ETL_Data_Cleaning"](https://github.com/saraparveen26/project4-group6/blob/main/Notebooks_Databricks/Jupyter_Notebooks/ETL_Data_Cleaning.ipynb) Databricks notebooks are run whenever a new [Cluster](https://docs.databricks.com/clusters/index.html) is connected.
 
 
 ## Data Model Description
