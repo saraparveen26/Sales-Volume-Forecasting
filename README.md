@@ -43,6 +43,16 @@ The target audiences for this model are:<br />
 * The database schema was stored in the Databricks File System (DBFS) through a Databricks Community Account
 
 
+## Data Cleaning     
+
+* The ETL performed using PySpark by completing the following steps:
+    1) Loading and merging DataFrames
+    2) Selecting and filtering the columns to be used
+    3) Converting the columns to the appropriate data type 
+    4) Groupings the data to get yearly and monthly aggregates
+
+%%%%%%%%%%%@@@@* The ETL process is documented in the Databricks notebook which can be viewed here: 
+
 
 ## Database Creation
 
@@ -52,17 +62,6 @@ The target audiences for this model are:<br />
 
 * The schema was defined using [PySpark SQL](https://sparkbyexamples.com/pyspark/pyspark-sql-with-examples/) in the Databricks notebook: ["Data Management Python"]()
 * Amazon AWS feeds DBS databricks  
-
-
-## Data Cleaning     
-
-* The ETL performed using PySpark by completing the following steps:
-    1) Loading and merging DataFrames
-    2) Selecting and filtering the columns to be used
-    3) Converting the columns to the appropriate data type 
-    4) Groupings the data to get yearly and monthly aggregates
-
-%%%%%%%%%%%@@@@* The ETL process is documented in the Databricks notebook which can be viewed here:  
 
 
 ## Data Model Description
@@ -180,7 +179,7 @@ We can imply that the model fits well based on the analysis of residuals.
       
   2- The dashboards in Databricks do not have a default option of adding filters. We used Databricks Widgets to create filters in order to filter by year and by each product category which makes it a more dynamic dashboard.
   
-  3- The dashboards filters do not carry over into the HTML file that is exported from the Databricks dashboards.
+  3- The dashboards filters in Databricks do not carry over into the HTML file that is exported from the Databricks dashboards.
 
 
 ## Conclusion
